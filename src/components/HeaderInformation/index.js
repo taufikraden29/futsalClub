@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { IconDefaultUser, IconJadwal, IconStadium } from "../../assets";
+import { PRIMARY_COLOR } from "../../utils/constant";
 
 const HeaderInformation = () => {
 	return (
@@ -50,6 +51,7 @@ const styles = StyleSheet.create({
 	name: {
 		fontSize: 13,
 		fontFamily: "Poppins-Bold",
+		color: PRIMARY_COLOR,
 	},
 	greeting: {
 		fontSize: 13,
